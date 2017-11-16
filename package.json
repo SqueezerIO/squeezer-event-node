@@ -1,0 +1,45 @@
+{
+  "name": "squeezer-event-node",
+  "version": "0.0.4",
+  "description": "NodeJS agnostic cloud events interface",
+  "homepage": "https://squeezer.io/",
+  "bin": {},
+  "keywords": [
+    "squeezer.io",
+    "squeezer.io framework",
+    "squeezer framework",
+    "squeezer",
+    "squeezer event",
+    "squeezer event node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SqueezerIO/squeezer-adapter-node"
+  },
+  "scripts": {
+    "eslint": "eslint . --cache",
+    "jsinspect": "jsinspect -t 50 ./",
+    "test": "jest"
+  },
+  "contributors": [
+    {
+      "name": "Nick Chisiu",
+      "email": "nick@squeezer.io",
+      "web": "https://Squeezer.IO/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "is-json": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.10.0",
+    "jest": "^21.2.1",
+    "jsinspect": "^0.12.7"
+  }
+}
